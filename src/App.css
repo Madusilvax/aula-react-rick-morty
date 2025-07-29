@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  /*faz com que a largura e altura de um elemento incluam o preenchimento (padding) e a borda (border) no cálculo, resultando em um layout mais previsível*/
+}
+body {
+  background-color: rgb(26, 26, 26); /*muda a cor de fundo*/
+}
+
+.card {
+  color: white; /*altera a cor do texto*/
+  font-family: sans-serif; /*altera a cor da fonte das letras*/
+  border: 1px solid white; /*Borda branca pequena*/
+  border-radius: 10px; /*borda arredondada*/
+  text-align: center; /* define o alinhamento do card*/
+  width: 20%; /*define o tamanho do card*/
+  margin: 0 auto; /* margin 0 pra cima e pra baixo e auto pra esquerda e pra direita, isso faz a div ficar centralizada*/
+  padding: 10px; /*tamanho de preenchimento do card*/
+  box-shadow: 5px 6px 0 white; /*sombra da caixa*/
+}
+.card img {
+  width: 100%; /* largura de 100% da imagem*/
+  border-radius: 8px; /* Cantos arredondados */
+}
+
+ 
+
+
