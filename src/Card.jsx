@@ -1,15 +1,15 @@
 import React from 'react'
-import './card.css'
+import './Card.css'
 
-function card(){
+function Card(props){
     return (
         <>
 <div className="card">
-        <h2>Rick Sanchez</h2>
-        <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"/>
+        <h2>{props.nome}</h2>
+        <img src={props.foto}/>
       </div>
         </>
     )
 }
 
-export default card
+export default Card
