@@ -6,6 +6,14 @@ body {
   background-color: rgb(26, 26, 26); /*muda a cor de fundo*/
 }
 
+
+.lista{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+
+}
+
 .card {
   color: white; /*altera a cor do texto*/
   font-family: sans-serif; /*altera a cor da fonte das letras*/
